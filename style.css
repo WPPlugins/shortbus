@@ -1,0 +1,91 @@
+#shortcode-content {
+    width: 700px;
+    height: 300px;
+    font-family: "Courier New", Consolas, serif;
+}
+
+#icon-edit-pages.shortbus-icon {
+    background: url(images/icon-shortbus.png) no-repeat;
+}
+
+#save-area,
+#loading-area {
+    margin-top: 15px;
+}
+
+#loading {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url(images/loading.gif) no-repeat;
+    vertical-align: middle;
+}
+
+/* Custom select box & search */
+
+#sb-select {
+    display: inline-block;
+}
+
+#sb-select-box {
+    width: 220px;
+    border: 1px solid #dfdfdf;
+    background: #fff url(images/select-gradient.png) top right no-repeat;
+    cursor: pointer;
+}
+
+#sb-select-value {
+    padding: 3px;
+    background: url(images/icon-down.png) 199px 9px no-repeat;
+}
+
+#sb-select-box.active #sb-select-value {
+    background: url(images/icon-close.png) 199px 7px no-repeat;
+}
+
+#sb-select-popup {
+    width: 220px;
+    background: #fff;
+    position: absolute;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    display: none;
+    z-index: 5;
+}
+
+#sb-select-options {
+    height: 160px;
+    overflow-y: auto;
+}
+
+#sb-filter {
+    background: #ececec;
+    padding: 3px;
+}
+
+.sb-option {
+    cursor: pointer;
+    padding: 3px;
+}
+
+.sb-option:hover {
+    background: #f5f5f5;
+}
+
+/* Export box */
+
+#import-area, #export-area {
+    display: none;
+}
+
+#import-content, #export-content {
+    width: 700px;
+    height: 200px;
+}
+
+/* CodeMirror overrides */
+
+.CodeMirror {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+}
